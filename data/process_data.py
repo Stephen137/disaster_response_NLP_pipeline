@@ -47,7 +47,8 @@ def clean_data(df):
     
     # Convert category values to 0 or 1
     for column in categories:
-        categories[column] = categories[column].apply(lambda x: int(x[-1]))
+        #categories[column] = categories[column].apply(lambda x: int(x[-1]))
+        categories[column] = categories[column].apply(lambda x: '1' if x[-1] == '2' else x[-1])
         
     # Replace categories column in df with new category columns
     df = df.drop('categories', axis=1)
