@@ -30,29 +30,29 @@ A Python script which:
 
 The final project output is a web app which leverages the [Bootstrap library](https://getbootstrap.com/) and [Flask framework](http://flask.pocoo.org/) and:
 
-- uses the model built in the previous step to classify user input text across 36 pre-defined categories. This tool could be used by emergency workers to direct resource allocation during disaster events 
+- uses the model built in the previous step to classify input text across 36 pre-defined categories. This tool could be used by emergency workers to direct resource allocation during disaster events 
 - includes three interactive visualizations created using [Plotly](https://plotly.com/) 
 
 ### File Structure
 
-- app
-| - template
-| |- master.html  # main page of web app
-| |- go.html  # classification result page of web app
-|- run.py  # Flask file that runs app
+- **app**
+  - **template**
+    - `master.html`  # main page of web app
+    - `go.html`  # classification result page of web app
+  - `run.py`  # Flask file that runs app
 
-- data
-|- disaster_categories.csv  # data to process 
-|- disaster_messages.csv  # data to process
-|- process_data.py
-|- source_language.py # detect message source language
-|- disaster_response.db   # database to save clean data to
+- **data**
+  - `disaster_categories.csv`  # data to process 
+  - `disaster_messages.csv`  # data to process
+  - `process_data.py`
+  - `source_language.py` # detect message source language
+  - `disaster_response.db`   # database to save clean data to
 
-- models
-|- train_classifier.py
-|- random_forest.pkl  # saved model 
+- **models**
+  - `train_classifier.py`
+  - `random_forest.pkl`  # saved model 
 
-- README.md
+- **README.md**
 
 ## Reproducing the project locally
 
@@ -95,7 +95,11 @@ Navigate to the app directory and run the following command:
 
 The dashboard app should render locally at http://0.0.0.0:3001/
 
+Illustrative screenshots of my app are included below:
+
+
+
 ## Acknowledgements
 
-
+Special thanks to [Andrew Paster](https://www.linkedin.com/in/andrewpaster/),([Juno Lee](https://github.com/junolee),and [Arpan Chakraborty](https://www.linkedin.com/in/arpan-chakraborty/)for their expert guidance on how to create data pipelines and write clean, modular code. This project is part of the Data Scientist nanodegree curated by [Udacity]((https://www.udacity.com/).
 
