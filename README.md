@@ -97,9 +97,17 @@ The dashboard app should render locally at http://0.0.0.0:3001/
 
 Illustrative screenshots of my app are included below:
 
+![dashboard_message](https://github.com/Stephen137/disaster_response_NLP_pipeline/assets/97410145/d170caf7-5ea3-4029-b875-e87a1d357eff)
+
+![dashboard_lang](https://github.com/Stephen137/disaster_response_NLP_pipeline/assets/97410145/deea8145-5a5d-47ab-b759-fffedbdf88ed)
+
+![dashboard_genre_categories](https://github.com/Stephen137/disaster_response_NLP_pipeline/assets/97410145/1b0ad364-3358-43dc-9cf0-3da99de7d4a7)
+
+
+
 
 
 ## Acknowledgements
 
-Special thanks to [Andrew Paster](https://www.linkedin.com/in/andrewpaster/),([Juno Lee](https://github.com/junolee),and [Arpan Chakraborty](https://www.linkedin.com/in/arpan-chakraborty/)for their expert guidance on how to create data pipelines and write clean, modular code. This project is part of the Data Scientist nanodegree curated by [Udacity]((https://www.udacity.com/).
+Special thanks to [Andrew Paster](https://www.linkedin.com/in/andrewpaster/), [Juno Lee](https://github.com/junolee), and [Arpan Chakraborty](https://www.linkedin.com/in/arpan-chakraborty/) for their expert guidance on how to create data pipelines and write clean, modular code. This project is part of the Data Scientist nanodegree curated by [Udacity]((https://www.udacity.com/).
 
